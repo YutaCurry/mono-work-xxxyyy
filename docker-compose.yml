@@ -32,7 +32,7 @@ services:
     stdin_open: true
     image: node:17.9
     working_dir: /workspace/backend
-    command: bash -c "npm install && npm run nodemon"
+    command: bash -c "npm install && cp .env.sample .env && npx prisma migrate deploy && npm run nodemon"
     ports:
       - 3000:3000
     volumes:
