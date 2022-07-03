@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  batch:
+    tty: true
+    stdin_open: true
+
+  backend:
+    tty: true
+    stdin_open: true
+
+  frontend:
+    tty: true
+    stdin_open: true

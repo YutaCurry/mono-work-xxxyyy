@@ -1,0 +1,15 @@
+{
+  "name": "frontend",
+  "dockerComposeFile": [
+    "../../docker-compose.yml",
+    "../../docker-compose.override.yml",
+    "../docker-compose.yml"
+  ],
+  "service": "frontend",
+  "workspaceFolder": "/workspace/frontend",
+  "extensions": [
+    "mhutchie.git-graph",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint"
+  ]
+}

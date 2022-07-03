@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    // importでJSON読み込み用
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    // デコレータ用
+    "experimentalDecorators": true,
+    // 初期のまま
+    "target": "es5",
+    "module": "commonjs", 
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": "./src",
+    "outDir": "dist",
+    "lib": ["ESNext"],
+    "sourceMap": true,
+    "paths": {
+      "@backend/*": ["./*"]
+    }
+  },
+  "include": ["src/**/*"]
+}

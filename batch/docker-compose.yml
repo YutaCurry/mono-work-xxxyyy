@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  batch:
+    tty: true
+    stdin_open: true
+    build:
+      context: batch
+      dockerfile: Dockerfile
+    # command: nodemon -L --inspect=0.0.0.0:5858
+    volumes:
+      - ./batch:/workspace
+      - ~/.gitconfig:/root/.gitconfig
+    # ports:
+    #   - 5858:5858

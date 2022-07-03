@@ -1,0 +1,9 @@
+version: '3.9'
+services:
+  frontend:
+    tty: true
+    stdin_open: true
+    command: /bin/sh -c "while :; do sleep 10; done"
+    volumes:
+      - .:/workspace
+      - ~/.gitconfig:/root/.gitconfig

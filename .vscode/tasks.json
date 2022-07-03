@@ -1,0 +1,14 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "echo",
+      "type": "shell",
+      "command": "自分がいつもc++ファイルをビルドするときに打つコマンドを書いてください〜　例）cmake. && make とか",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}

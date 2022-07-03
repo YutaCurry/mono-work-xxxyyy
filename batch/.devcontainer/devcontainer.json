@@ -1,0 +1,7 @@
+{
+    "name": "batch",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"args": { "DEV": "batch" }
+	}
+}
